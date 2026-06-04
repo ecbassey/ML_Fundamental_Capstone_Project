@@ -9,3 +9,5 @@ missingno
 scikit-learn
 xgboost
 imblearn
+sklearn
+seaborn
