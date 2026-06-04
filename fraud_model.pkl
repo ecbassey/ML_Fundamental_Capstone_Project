@@ -1,0 +1,3 @@
+import joblib
+
+joblib.dump(best_xgb, 'fraud_model.pkl')
