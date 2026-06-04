@@ -4,3 +4,4 @@ numpy
 matplotlib
 geopandas
 plotly
+joblib
