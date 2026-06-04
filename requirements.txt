@@ -5,3 +5,7 @@ matplotlib
 geopandas
 plotly
 joblib
+missingno
+scikit-learn
+xgboost
+imblearn
