@@ -162,6 +162,12 @@ ax.set_title("Confusion Matrix")
 st.pyplot(fig)
 
 
+#-----comments --------------
+st.write("Random Forest: When the model predicts fraud, it's usually right, but it almost never predicts fraud.")
+st.write("Logistic Regression: It catches almost half of the frauds, but it flags a huge number of legitimate transactions as fraud.")
+st.write("SVM: It catches almost half of the frauds, but it flags a huge number of legitimate transactions as fraud.")
+
+
 #------------
 st.session_state["trained_models"] = trained_models
 st.session_state["X_train"] = X_train
