@@ -10,7 +10,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
-from xgboost import XGBClassifier
+#from xgboost import XGBClassifier
 from sklearn.pipeline import make_pipeline
 from imblearn.pipeline import Pipeline as make_pipeline_imb
 from imblearn.pipeline import make_pipeline as make_pipeline_imb
@@ -191,7 +191,7 @@ if st.button("Evaluate All Models"):
 
     results = []
 
-    for name, model in models.items():
+    for name, model in trained_models.items():
 
         y_pred = model.predict(X_test)
 

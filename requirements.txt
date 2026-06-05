@@ -7,6 +7,5 @@ plotly
 joblib
 missingno
 sklearn
-xgboost
 imblearn
 seaborn
