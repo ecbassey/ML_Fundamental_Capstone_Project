@@ -6,6 +6,6 @@ geopandas
 plotly
 joblib
 missingno
-sklearn
-imblearn
+scikit-learn
+imbalanced-learn
 seaborn
